@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Desarrollando una App</string>
+    <string name="hintName">Nombre completo</string>
+    <string name="hintTel">Teléfono</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintContact">Descripción Contacto</string>
+
+    <string name="nombreCompleto"></string>
+    <string name="tel"></string>
+    <string name="email"></string>
+    <string name="contact"></string>
+
+    <string name="next">Siguiente</string>
+    <string name="back">Atrás</string>
+</resources>

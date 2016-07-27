@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context="mx.blogspot.juanmtejedav.desarrollandounaapp.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/hintName"
+        android:textColor="@color/textPrimary"
+        android:text="@string/nombreCompleto"
+        android:textColorHint="@color/textSecondary"/>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:calendarViewShown="true"
+        android:datePickerMode="spinner"
+        android:spinnersShown="true">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    </DatePicker>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/hintTel"
+        android:text="@string/tel"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:hint="@string/hintEmail"
+       android:text="@string/email"
+       android:textColor="@color/textPrimary"
+       android:textColorHint="@color/textSecondary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lines="3"
+        android:text="@string/contact"
+        android:hint="@string/hintContact"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="intentToDetail"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"/>
+
+</LinearLayout>
