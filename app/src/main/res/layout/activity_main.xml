@@ -7,64 +7,73 @@
     android:orientation="vertical"
     tools:context="mx.blogspot.juanmtejedav.desarrollandounaapp.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:src="@drawable/mark_view_as_non_hidden_80" />
+
     <EditText
+        android:id="@+id/ET_NombreCompleto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/hintName"
-        android:textColor="@color/textPrimary"
-        android:text="@string/nombreCompleto"
-        android:textColorHint="@color/textSecondary"/>
+        android:inputType="textPersonName"
+        android:textColor="@color/textPrimary" />
 
-    <DatePicker
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/BT_fechaNacimiento"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="6"
-        android:calendarViewShown="true"
-        android:datePickerMode="spinner"
-        android:spinnersShown="true">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-    </DatePicker>
-
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:ems="8"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/introducirFecha"
+        android:textColor="@color/textIcons"
+        android:textSize="14sp" />
 
     <EditText
+        android:id="@+id/ET_Telefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/hintTel"
-        android:text="@string/tel"
         android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"/>
-
-   <EditText
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_weight="1"
-       android:hint="@string/hintEmail"
-       android:text="@string/email"
-       android:textColor="@color/textPrimary"
-       android:textColorHint="@color/textSecondary"/>
+        android:textColorHint="@color/textSecondary" />
 
     <EditText
+        android:id="@+id/ET_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:lines="3"
-        android:text="@string/contact"
-        android:hint="@string/hintContact"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress"
         android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"/>
+        android:textColorHint="@color/textSecondary" />
+
+    <EditText
+        android:id="@+id/ET_descripcionContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/hintContact"
+        android:lines="3"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary" />
 
     <Button
+        android:id="@+id/BT_siguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:onClick="intentToDetail"
+        android:background="@color/colorAccent"
         android:text="@string/next"
         android:textColor="#FFFFFF"
-        android:background="@color/colorAccent"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

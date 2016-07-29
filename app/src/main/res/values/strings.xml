@@ -5,11 +5,11 @@
     <string name="hintEmail">Email</string>
     <string name="hintContact">Descripción Contacto</string>
 
-    <string name="nombreCompleto"></string>
-    <string name="tel"></string>
-    <string name="email"></string>
-    <string name="contact"></string>
-
     <string name="next">Siguiente</string>
-    <string name="back">Atrás</string>
+    <string name="editarDatos">Editar datos</string>
+    <string name="introducirFecha">Introducir fecha de nacimiento</string>
+
+<string name="nombreCompleto"></string>
+
+    <string name="confirmarDatos">Confirmar Datos</string>
 </resources>
